@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stationery Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>InkWell</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Premium Stationery Collection</h1>
+    <p>Elegant tools for your creativity</p>
+</section>
+
+<section class="products">
+    <div class="card">
+        <img src="https://imgs.search.brave.com/D88mYdU7hFU7BSbiA9caz_hDe6BCRj4jK7iPqgV2xbM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wYXBl/cml0LmluL2Nkbi9z/aG9wL2ZpbGVzL3Bv/bWVsbGlfcGhvdG9z/aG9vdF9pbWFnZV8x/XzFfMDQyOS0xMS5q/cGc_dj0xNzc3NDU4/NTg0JndpZHRoPTEw/MjQ">
+        <h3>Notebook</h3>
+        <p>₹199</p>
+        <button onclick="addToCart('Notebook',199)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://imgs.search.brave.com/Jv3iM0JHFoTXk9oUJ6ZWjq0H8QapcTc0NT-hWdDew-w/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9ydWtt/aW5pbTIuZmxpeGNh/cnQuY29tL2ltYWdl/LzMwMC8zMDAveGlm/MHEvcGVuL2Qvby9h/Ly1vcmlnaW5hbC1p/bWFoODd5ejc5cXBm/NGo1LmpwZWc_cT05/MA">
+        <h3>Pen Set</h3>
+        <p>₹299</p>
+        <button onclick="addToCart('Pen Set',299)">Add to Cart</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 InkWell</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
