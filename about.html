@@ -1,22 +1,221 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-<title>About</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Stationery Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .about-hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #f6f1ff, #eaf7ff);
+        }
+
+        .about-hero h2 {
+            font-size: 42px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .about-hero p {
+            max-width: 700px;
+            margin: auto;
+            font-size: 18px;
+            color: #666;
+            line-height: 1.7;
+        }
+
+        .about-section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        .about-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .about-section p {
+            text-align: center;
+            max-width: 850px;
+            margin: 10px auto;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 35px;
+        }
+
+        .feature {
+            width: 250px;
+            padding: 25px;
+            text-align: center;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+        }
+
+        .feature h3 {
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 14px;
+        }
+
+        .mission {
+            background: #f7f7f7;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .mission h2 {
+            margin-bottom: 15px;
+        }
+
+        .cta {
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        .cta h2 {
+            margin-bottom: 10px;
+        }
+
+        .cta a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .cta a:hover {
+            background: #555;
+        }
+    </style>
 </head>
+
 <body>
 
-<header><h1>About Us</h1></header>
+    <header>
+        <h1>About Our Stationery Shop</h1>
+    </header>
 
-<nav>
-<a href="index.html">Home</a>
-</nav>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+    </nav>
+    <section class="about-hero">
+        <h2>Where Ideas Begin ✨</h2>
+        <p>
+            Welcome to our stationery world — a place where creativity,
+            organization and imagination come together. We provide useful,
+            stylish and quality stationery products for students, creators
+            and everyday users.
+        </p>
+    </section>
+    <section class="about-section">
+        <h2>Our Story</h2>
 
-<div class="container">
-<p>This is a stationery shop frontend project.</p>
-<p>It uses good products</p>
-</div>
+        <p>
+            Our stationery shop was created with a simple idea: make everyday
+            stationery shopping easy, enjoyable and accessible. From notebooks
+            and pens to school and office essentials, our collection is designed
+            to support learning, creativity and productivity.
+        </p>
+
+        <p>
+            This website is a frontend project developed to demonstrate how a
+            modern stationery shopping platform can be designed using
+            HTML, CSS and JavaScript.
+        </p>
+    </section>
+    <section class="about-section">
+        <h2>Why Choose Us?</h2>
+
+        <div class="features">
+
+            <div class="feature">
+                <h3>📚 Quality Products</h3>
+                <p>
+                    We focus on presenting useful and reliable stationery
+                    products for everyday needs.
+                </p>
+            </div>
+
+            <div class="feature">
+                <h3>🎨 Creative Collection</h3>
+                <p>
+                    Discover stationery that makes studying, writing and
+                    creating more enjoyable.
+                </p>
+            </div>
+
+            <div class="feature">
+                <h3>💻 Easy Experience</h3>
+                <p>
+                    Our clean and simple interface makes browsing products
+                    quick and convenient.
+                </p>
+            </div>
+
+            <div class="feature">
+                <h3>⭐ User Friendly</h3>
+                <p>
+                    The website is designed with a simple layout that is easy
+                    to understand and navigate.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="mission">
+        <h2>Our Mission</h2>
+
+        <p>
+            Our mission is to create a simple and attractive digital stationery
+            shopping experience while showcasing the possibilities of modern
+            frontend web development.
+        </p>
+    </section>
+    <section class="about-section">
+        <h2>Built With Technology</h2>
+
+        <p>
+            This project uses <strong>HTML</strong> for the structure,
+            <strong>CSS</strong> for styling and responsive design, and
+            <strong>JavaScript</strong> for interactive frontend features.
+            The current project is frontend-based and does not include a
+            backend or database.
+        </p>
+    </section>
+
+ 
+    <section class="cta">
+        <h2>Ready to Explore?</h2>
+
+        <p>
+            Explore our stationery collection and find something that
+            inspires your next idea.
+        </p>
+
+        <a href="index.html">Explore Products</a>
+    </section>
 
 </body>
 </html>
